@@ -42,10 +42,8 @@
     "click_to_check": "Click to see what happen",
     "shared_by": "Shared by:"
   },
-  "playground_overview_explains": {
-    "short_period": "This trigger does not need a user, bot or pet to work, its function is to repeat infinitely the effects of the stack.",
-    "has_handitem": "When the avatar reach the <b>\"coffee\"</b> drink the condition will be activated.",
-    "selector_users_area_playground": "This selector allows you to obtain all the users who are in a <b>certain area of the room defined by you</b>."
+  "alerts": {
+    "click_remember": "Remember that you can see the content of the wireds by double clicking on them."
   },
   "navbar": {
     "community": "Community",

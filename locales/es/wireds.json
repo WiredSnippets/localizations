@@ -631,6 +631,34 @@
     "click_user": {
       "name": "Causante WIRED: Habbo clica a Habbo",
       "description": "Se activa cuando un usuario hace clic en otro usuario."
+    },
+    "quest": {
+      "name": "Variable Wired: Reto",
+      "description": "Variable asignada al reto, útil para almacenar información sobre el reto. Puede ser permanente, temporal o compartida entre salas."
+    },
+    "quest_chain": {
+      "name": "Variable Wired: Cadena de Reto",
+      "description": "Variable asignada a la cadena de reto, útil para almacenar información sobre la cadena de reto. Puede ser permanente, temporal o compartida entre salas."
+    },
+    "var_time_util": {
+      "name": "Complemento de Variable WIRED: Utilidades de Tiempo",
+      "description": "Este complemento permite gestionar el tiempo de una variable."
+    },
+    "var_lvlup_system": {
+      "name": "Complemento de Variable WIRED: Sistema de Subida de Nivel",
+      "description": "Este complemento permite gestionar el sistema de subida de nivel de una variable."
+    },
+    "echo": {
+      "name": "Variable WIRED: Eco",
+      "description": "La variable Eco permite extraer información de las variables internas de forma fácil."
+    },
+    "neg_log": {
+      "name": "Efecto Negativo WIRED: Escribir los registros",
+      "description": "Se activa cuando la condición no se cumple y ejecuta el guardado de registros. (Se pueden ver en el panel de gestión Wired)"
+    },
+    "log": {
+      "name": "Efecto WIRED: Escribir los registros",
+      "description": "Al ejecutarse el efecto, se guarda un registro en el panel de gestión Wired."
     }
   }
 }

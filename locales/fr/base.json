@@ -41,11 +41,8 @@
     "click_to_check": "Cliquez pour voir ce qui se passe",
     "shared_by": "Partagé par :"
   },
-  "playground_overview_explains": {
-    "short_period": "Ce déclencheur n'a pas besoin d'un utilisateur, d'un bot ou d'un animal de compagnie pour fonctionner, sa fonction est de répéter indéfiniment les effets de la pile.",
-    "says_something": "Si l'utilisateur dit le mot <u>secret</u>, alors le déclencheur sera activé.",
-    "has_handitem": "Lorsque l'avatar boit le <b>\"café\"</b>, la condition sera activée.",
-    "selector_users_area_playground": "Ce sélecteur vous permet d'obtenir tous les utilisateurs qui se trouvent dans une <b>certaine zone de la pièce définie par vous</b>."
+  "alerts": {
+    "click_remember": "Souvenez-vous de pouvoir voir le contenu des wireds en cliquant deux fois sur eux."
   },
   "navbar": {
     "community": "Communauté",

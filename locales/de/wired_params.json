@@ -272,6 +272,10 @@
     },
     "from_another_room": "Von einem anderen Raum",
     "from_value": "Von Wert",
+    "furni_picking": {
+      "tooltip": "Möbelauswahl aktivieren"
+    },
+    "general_box_info": "Anleitung:",
     "groupselection": "Gruppe auswählen:",
     "grouptype": {
       "0": "Aktuelle Gruppe",
@@ -285,6 +289,7 @@
     "levelup": {
       "first_level_xp": "Basis XP",
       "increase_factor": "Wachstumsfaktor (%):",
+      "interpolation_placeholder": "5=100             (Level 5 = 100 XP)\\n10=500\\n20=4000\\n...",
       "max_level": "Max.Level:",
       "mode": {
         "0": "Manueller Input",
@@ -306,6 +311,25 @@
         "5": "Übrige XP:",
         "6": "Ist ausgeschöpft:",
         "7": "Max.Level:"
+      }
+    },
+    "menu": {
+      "clear_picks": "Ausgewählte Möbel entfernen",
+      "close": "Schließen",
+      "copy": "Konfiguration kopieren",
+      "copy_paste": {
+        "tooltip": "Du kannst Wired-Konfigurationen zwischen Wired-Boxen vom selben Typ kopieren und einfügen"
+      },
+      "open_menu": "Wired-Ersteller-Tools öffnen",
+      "paste": "Konfiguration einfügen",
+      "paste_into": {
+        "tooltip": "Während diese Option aktiviert und das Feld geöffnet ist, kannst du auf andere Wired-Felder doppelklicken, um die aktuellen Konfigurationen in sie zu kopieren",
+        "title": "In anderes Wired kopieren"
+      },
+      "reset": "Auf Originalzustand zurücksetzen",
+      "save": {
+        "tooltip": "Die aktuelle Wired-Konfiguration speichern, ohne das Fenster zu schließen",
+        "title": "Speichern"
       }
     },
     "message": "Nachricht:",
@@ -456,6 +480,37 @@
     "settimewindow": "Zeitfenster: {{timewindow}} Sekunden",
     "setusersfilter": "Filtern nach {{amount}} Usern",
     "shout": "Schreien",
+    "show_message": {
+      "style_selection": {
+        "34": "Standard Benachrichtigung",
+        "200": "Rote Benachrichtigung",
+        "201": "Grüne Benachrichtigung",
+        "202": "Blaue Benachrichtigung",
+        "210": "Achtung!",
+        "211": "Info",
+        "212": "Warnung",
+        "220": "Falsch",
+        "221": "Falsch (Kreis)",
+        "222": "Richtig",
+        "223": "Richtig (Kreis)",
+        "224": "Fragezeichen",
+        "225": "Fragezeichen (Kreis)",
+        "226": "HOCH",
+        "227": "HOCH (Kreis)",
+        "228": "RUNTER",
+        "229": "RUNTER (Kreis)",
+        "250": "Schädel",
+        "251": "Schädel 2",
+        "252": "Lupe",
+        "title": "Benachrichtigungtyp:"
+      },
+      "usage_info": "Diese Wiredbox zeigt im Raum einem oder allen Usern eine Nachricht an.\\n\\nDu kannst Tags verwenden wie [red]text[/red], [b]bold[/b], oder [blue]Info[/blue] um Farbe oder Stil hinzuzufügen.",
+      "visibility_selection": {
+        "0": "Nur den User",
+        "1": "Alle",
+        "title": "Nachricht sichtbar für:"
+      }
+    },
     "sign_filter": "Nach Schild filtern",
     "sign_selection": "Zeichen",
     "signal": {
@@ -471,7 +526,7 @@
       "furni": {
         "0": "Das auslösende Item nehmen",
         "100": "Ausgewählte Möbel nehmen",
-        "101": "Den Snapshot verwenden",
+        "101": "Zweite Möbelauswahl",
         "200": "Möbel vom Selektor nehmen",
         "201": "Möbel vom Signal nehmen",
         "900": "Alle Möbel im Raum",
@@ -720,6 +775,7 @@
         "caption": "0=text0\\n1=text1\\n2=...",
         "title": "Text verbinden mit Variable:"
       },
+      "daily_task_name": "Täglicher Aufgabe-Code:",
       "duration": {
         "0": "Millisekunden",
         "1": "Sekunden",
@@ -787,7 +843,12 @@
       "time_selection": "Zeit auswählen",
       "trigger_options": {
         "0": "Erstellt",
-        "1": "Wert geändert",
+        "1": {
+          "0": "Erhöht",
+          "1": "Reduziert",
+          "2": "Unverändert",
+          "title": "Wert geändert"
+        },
         "2": "Gelöscht",
         "title": "Auslösen wenn Variable="
       },
@@ -809,7 +870,16 @@
       }
     },
     "whatissaid": "Was gesagt wird:",
-    "whisper": "Flüstern"
+    "whisper": "Flüstern",
+    "write_to_logs": {
+      "log_level": {
+        "title": "Log Level:"
+      },
+      "log_message": {
+        "title": "Log Nachricht:"
+      },
+      "view": "Logs sehen"
+    }
   },
   "pickfurnis": {
     "caption": "Möbel auswählen [{{count}}/{{limit}}]",

@@ -268,6 +268,10 @@
     },
     "from_another_room": "Başka bir odadan",
     "from_value": "Değerden",
+    "furni_picking": {
+      "tooltip": "Mobi seçimine izin ver"
+    },
+    "general_box_info": "Kullanım bilgisi:",
     "groupselection": "Grup seç:",
     "grouptype": {
       "0": "Mevcut grup",
@@ -281,6 +285,7 @@
     "levelup": {
       "first_level_xp": "Temel XP:",
       "increase_factor": "Artış oranı (%):",
+      "interpolation_placeholder": "5=100             (Level 5 = 100 XP)\\n10=500\\n20=4000\\n...",
       "max_level": "Maksimum seviye:",
       "mode": {
         "0": "Manuel giriş",
@@ -302,6 +307,25 @@
         "5": "Kalan XP:",
         "6": "Maksimuma ulaşıldı mı:",
         "7": "Maksimum seviye:"
+      }
+    },
+    "menu": {
+      "clear_picks": "Mobi seçimlerini temizle",
+      "close": "Kapat",
+      "copy": "Ayarları kopyala",
+      "copy_paste": {
+        "tooltip": "Aynı türden Wiredlar arasında ayarları kopyala-yapıştır yapabilirsin"
+      },
+      "open_menu": "Wired Yaratıcı Araçlarını Aç",
+      "paste": "Ayarları yapıştır",
+      "paste_into": {
+        "tooltip": "Bu seçenek etkinleştirilmiş ve kutu açıkken, geçerli ayarları bunlara kopyalamak için diğer Wired kutularına çift tıklayın",
+        "title": "Başka Wired'a kopyala"
+      },
+      "reset": "Varsayılan ayarları sıfırla",
+      "save": {
+        "tooltip": "Pencereyi kapatmadan geçerli Wired ayarlarını kaydet",
+        "title": "Kaydet"
       }
     },
     "message": "Mesaj:",
@@ -452,6 +476,37 @@
     "settimewindow": "Süre penceresi: {{timewindow}} saniye",
     "setusersfilter": "{{amount}} kullanıcıya filtrele",
     "shout": "Bağır",
+    "show_message": {
+      "style_selection": {
+        "34": "Varsayılan bildirim",
+        "200": "Kırmızı Bildirim",
+        "201": "Yeşil Bildirim",
+        "202": "Mavi Bildirim",
+        "210": "Uyarı!",
+        "211": "Bilgilendirme",
+        "212": "Uyarı",
+        "220": "✋ HİÇ DE DEĞİL!",
+        "221": "Yanlış (daire)",
+        "222": "Doğru",
+        "223": "Doğru (daire)",
+        "224": "Soru işareti",
+        "225": "Soru işareti (daire)",
+        "226": "YUKARI ok",
+        "227": "YUKARI ok (daire)",
+        "228": "AŞAĞI ok",
+        "229": "AŞAĞI ok (daire)",
+        "250": "Kafatası",
+        "251": "Kafatası 2",
+        "252": "Büyüteç",
+        "title": "Bildirim stili:"
+      },
+      "usage_info": "Bu Düzenekli odadaki bir oyuncuya ya da herkese bir mesaj gösterir. Sıradaki tagleri kullanarak \\n\\n  [kırmızı]metin[/kırmızı], [b]kalın[/b], veya [mavi]bilgi[/mavi] renk veya stil ekleyebilirsiniz.",
+      "visibility_selection": {
+        "0": "Sadece kullanıcı",
+        "1": "Herkes",
+        "title": "Mesaj görünürlülüğü"
+      }
+    },
     "sign_filter": "İşarete göre filtrele",
     "sign_selection": "İşaret:",
     "signal": {
@@ -467,7 +522,7 @@
       "furni": {
         "0": "Tetikleyici öğeyi kullan",
         "100": "Seçilmiş mobileri kullan",
-        "101": "Anlık görüntüyü kullan",
+        "101": "İkincil Mobi seçimleri",
         "200": "Seçiciden mobi kullan",
         "201": "Sinyalden mobi kullan",
         "900": "Odadaki tüm mobiler",
@@ -716,6 +771,7 @@
         "caption": "0=text0\\n1=text1\\n2=...",
         "title": "Metni değişkene bağla:"
       },
+      "daily_task_name": "Günlük görev kodu:",
       "duration": {
         "0": "Milisaniye",
         "1": "Saniye",
@@ -783,7 +839,12 @@
       "time_selection": "Zaman seç",
       "trigger_options": {
         "0": "Oluşturuldu",
-        "1": "Değer değiştirildi",
+        "1": {
+          "0": "Arttı",
+          "1": "Azaldı",
+          "2": "Aynı kaldı",
+          "title": "Değer değiştirildi"
+        },
         "2": "Silindi",
         "title": "Değişken bu olduğunda tetikle:"
       },
@@ -805,7 +866,16 @@
       }
     },
     "whatissaid": "Ne söylendi:",
-    "whisper": "Fısılda"
+    "whisper": "Fısılda",
+    "write_to_logs": {
+      "log_level": {
+        "title": "Kayıt seviyesi:"
+      },
+      "log_message": {
+        "title": "Kayıt mesajı:"
+      },
+      "view": "Kayıtlara bak"
+    }
   },
   "pickFurni": {
     "furnitypematches": "Aynı türden tüm Mobiler bir Tetikleyici görevi yapar"

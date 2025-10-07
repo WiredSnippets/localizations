@@ -272,6 +272,10 @@
     },
     "from_another_room": "Depuis une autre salle",
     "from_value": "Depuis la valeur",
+    "furni_picking": {
+      "tooltip": "Permettre la récupération de mobi"
+    },
+    "general_box_info": "Informations sur l'utilisation :",
     "groupselection": "Choisir le groupe :",
     "grouptype": {
       "0": "Groupe actuel",
@@ -285,6 +289,7 @@
     "levelup": {
       "first_level_xp": "XP de base :",
       "increase_factor": "Facteur d'augmentation (%) :",
+      "interpolation_placeholder": "5=100             (Level 5 = 100 XP)\\n10=500\\n20=4000\\n...",
       "max_level": "Niveau maximum :",
       "mode": {
         "0": "Entrée manuelle",
@@ -306,6 +311,25 @@
         "5": "XP restant :",
         "6": "Est au maximum :",
         "7": "Niveau maximum :"
+      }
+    },
+    "menu": {
+      "clear_picks": "Effacer récupération de mobi",
+      "close": "Fermer",
+      "copy": "Copier la configuration",
+      "copy_paste": {
+        "tooltip": "Tu peux copier-coller des configurations wired entre des wireds du même type."
+      },
+      "open_menu": "Ouvrir l'outil de création wired",
+      "paste": "Coller la configuration",
+      "paste_into": {
+        "tooltip": "Lorsque cette option est activée et que le wired est ouvert, double-clique sur d'autres wired pour y copier les configurations actuelles.",
+        "title": "Copier dans d'autres Wired"
+      },
+      "reset": "Réinitialisation aux valeurs par défaut",
+      "save": {
+        "tooltip": "Sauvegarder la configuration wired actuelle sans fermer la fenêtre",
+        "title": "Enregistrer"
       }
     },
     "message": "Message:",
@@ -456,6 +480,37 @@
     "settimewindow": "Temps: {{timewindow}} secondes",
     "setusersfilter": "Filtrer sur {{amount}} utilisateurs",
     "shout": "Crier",
+    "show_message": {
+      "style_selection": {
+        "34": "Notification par défaut",
+        "200": "Notification rouge",
+        "201": "Notification verte",
+        "202": "Notification bleue",
+        "210": "Alerte !",
+        "211": "Infos",
+        "212": "Attention",
+        "220": "Faux",
+        "221": "Faux (cercle)",
+        "222": "Correcte",
+        "223": "Correcte (cercle)",
+        "224": "Point d'interrogation",
+        "225": "Point d'interrogation (cercle)",
+        "226": "Flèche vers le haut",
+        "227": "Flèche vers le haut (cercle)",
+        "228": "Flèche vers le bas",
+        "229": "Flèche vers le bas (cercle)",
+        "250": "Tête de mort",
+        "251": "Tête de mort 2",
+        "252": "Loupe",
+        "title": "Style de notification :"
+      },
+      "usage_info": "Ce wired affiche un message dans la salle à un utilisateur ou à tout le monde.\\n\\nTu peux utiliser des tags comme [red]text[/red], [b]bold[/b], ou [blue]info[/blue] pour ajouter de la couleur ou du style.",
+      "visibility_selection": {
+        "0": "Seul l'utilisateur",
+        "1": "Tous",
+        "title": "Visibilité du message :"
+      }
+    },
     "sign_filter": "Filtrer par signe",
     "sign_selection": "Signe :",
     "signal": {
@@ -471,7 +526,7 @@
       "furni": {
         "0": "Utiliser l'élément déclencheur",
         "100": "Utiliser les mobi choisis",
-        "101": "Utiliser l'instantané",
+        "101": "Récupération secondaire de mobi",
         "200": "Utiliser les mobis du sélecteur",
         "201": "Utiliser les mobis de Signal",
         "900": "Tous les mobis de la salle",
@@ -721,6 +776,7 @@
         "caption": "0=text0\\n1=text1\\n2=...",
         "title": "Relier le texte à la variable :"
       },
+      "daily_task_name": "Code de la tâche quotidienne :",
       "duration": {
         "0": "Millisecondes",
         "1": "Secondes",
@@ -788,7 +844,12 @@
       "time_selection": "Sélectionner l'heure",
       "trigger_options": {
         "0": "Créé",
-        "1": "Valeur changée",
+        "1": {
+          "0": "Augmenté",
+          "1": "Diminué",
+          "2": "Inchangé",
+          "title": "Valeur changée"
+        },
         "2": "Supprimé",
         "title": "Déclenchement lorsque la variable est :"
       },
@@ -810,7 +871,16 @@
       }
     },
     "whatissaid": "Ce qui est dit:",
-    "whisper": "Murmurer"
+    "whisper": "Murmurer",
+    "write_to_logs": {
+      "log_level": {
+        "title": "Niveau log :"
+      },
+      "log_message": {
+        "title": "Message log :"
+      },
+      "view": "Voir les logs"
+    }
   },
   "pickfurnis": {
     "caption": "Choisir le mobi [{{count}}/{{limit}}]",

@@ -42,10 +42,8 @@
     "click_to_check": "Clique para ver o que aconteceu",
     "shared_by": "Compartilhado por:"
   },
-  "playground_overview_explains": {
-    "short_period": "Essa ativador não necessita de usuário, bot ou pet para funcionar, sua função é repetir infinitamente os efeitos da pilha.",
-    "has_handitem": "Quando o avatar beber o <b>\"café\"</b> a condição será ativada.",
-    "selector_users_area_playground": "Este seletor permite obter todos os usuários que estão em uma <b>determinada área da sala definida por você</b>."
+  "alerts": {
+    "click_remember": "Lembre-se de poder ver o conteúdo dos wireds clicando duas vezes sobre eles."
   },
   "navbar": {
     "community": "Comunidade",

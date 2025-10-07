@@ -161,7 +161,7 @@
       }
     },
     "action_selection": "Toimenpide:",
-    "allmatch": "Täsmää kaikkeen tekstiin",
+    "allmatch": "Laukaise kaikesta tekstistä",
     "allowafter2": "Aktivoi kun on kulunut:",
     "allowafter": "Yli {{seconds}} sekuntia kulunut",
     "allowbefore2": "Aktivoi ennen kuin on kulunut:",
@@ -272,6 +272,10 @@
     },
     "from_another_room": "Toisesta huoneesta",
     "from_value": "Arvosta",
+    "furni_picking": {
+      "tooltip": "Salli tavaroiden valinta"
+    },
+    "general_box_info": "Käyttötiedot:",
     "groupselection": "Valitse ryhmä:",
     "grouptype": {
       "0": "Nykyinen ryhmä:",
@@ -285,6 +289,7 @@
     "levelup": {
       "first_level_xp": "Aloitus-XP:",
       "increase_factor": "Kasvukerroin (%):",
+      "interpolation_placeholder": "5=100             (Level 5 = 100 XP)\\n10=500\\n20=4000\\n...",
       "max_level": "Maksimitaso:",
       "mode": {
         "0": "Manuaalinen syöttö",
@@ -306,6 +311,25 @@
         "5": "XP:tä jäljellä:",
         "6": "Maksimoitu:",
         "7": "Maksimitaso:"
+      }
+    },
+    "menu": {
+      "clear_picks": "Tyhjennä tavaravalinnat",
+      "close": "Sulje",
+      "copy": "Kopioi asetukset",
+      "copy_paste": {
+        "tooltip": "Voit kopioida ja liittää Wired-asetuksia samantyyppisten Wiredien välillä"
+      },
+      "open_menu": "Avaa Wired Creator Tools",
+      "paste": "Liitä asetukset",
+      "paste_into": {
+        "tooltip": "Kun tämä valinta on käytössä ja Wired-tavara on auki, tuplaklikkaa muita Wiredejä kopioidaksesi sen asetukset niihin",
+        "title": "Kopioi toiseen Wirediin"
+      },
+      "reset": "Palauta oletusasetuksiin",
+      "save": {
+        "tooltip": "Tallenna nykyiset Wired-asetukset sulkematta ikkunaa",
+        "title": "Tallenna"
       }
     },
     "message": "Viesti:",
@@ -335,13 +359,13 @@
     "not_requireall": {
       "0": "Yhden tai useamman valitun tavaran päällä EI ole tavaraa.",
       "1": "Millään valituista tavaroista EI ole tavaraa päällään",
-      "2": "Jos yhdellä valituista kamoista ei ole avataria",
-      "3": "Jos millään valitulla kamalla ei ole avataria",
+      "2": "Jos yhdellä valituista tavaroista ei ole hahmoa",
+      "3": "Jos millään valituista tavaroista ei ole hahmoa",
       "title": "Laukaisin aktivoituu, jos:"
     },
     "onfurni": {
-      "0": "Tavara tavaran päällä",
-      "1": "Tavara tavaran alla",
+      "0": "Tavarat tavaran päällä",
+      "1": "Tavarat tavaran alla",
       "2": "Tavara samassa korkeudessa",
       "3": "Kaikki tavarat samassa ruudussa"
     },
@@ -372,27 +396,27 @@
     "prizelimit": "Total rewards limit: {{amount}}",
     "quantifier": {
       "furni": {
-        "0": "Kaikki tavarat täsmäävät",
-        "1": "Yksikin tavara täsmää",
+        "0": "Kaikki tavarat täyttävät vaatimukset",
+        "1": "Yksikin tavara täyttää vaatimukset",
         "neg": {
-          "0": "Yksikin tavara ei täsmää",
-          "1": "Mikään tavara ei täsmää"
+          "0": "Yksikin tavara täyttää vaatimukset",
+          "1": "Kaikki tavarat täyttävät vaatimukset"
         }
       },
       "users": {
-        "0": "Kaikki hahmot täsmäävät",
-        "1": "Yksikin hahmo täsmää",
+        "0": "Kaikki hahmot täyttävät vaatimukset",
+        "1": "Yksikin hahmo täyttää vaatimukset",
         "neg": {
-          "0": "Yksikin hahmo ei täsmää",
-          "1": "Mikään hahmo ei täsmää"
+          "0": "Yksikin hahmo täyttää vaatimukset",
+          "1": "Kaikki hahmot täyttävät vaatimukset"
         }
       },
       "variables": {
-        "0": "Kaikki täsmäävät",
-        "1": "Mikä tahansa täsmää",
+        "0": "Kaikki täyttävät vaatimukset",
+        "1": "Yksikin täyttää vaatimukset",
         "neg": {
-          "0": "Mikä tahansa ei täsmää",
-          "1": "Mikään ei täsmää"
+          "0": "Yksikin täyttää vaatimukset",
+          "1": "Kaikki täyttävät vaatimukset"
         }
       }
     },
@@ -456,6 +480,37 @@
     "settimewindow": "Aikaväli: {{timewindow}} sekuntia",
     "setusersfilter": "Suodata valinta {{amount}} hahmoon",
     "shout": "Huuda",
+    "show_message": {
+      "style_selection": {
+        "34": "Oletusilmoitus",
+        "200": "Punainen ilmoitus",
+        "201": "Vihreä ilmoitus",
+        "202": "Sininen ilmoitus",
+        "210": "Hälytys",
+        "211": "Info",
+        "212": "Varoitus",
+        "220": "Väärin",
+        "221": "Väärin (ympyröity)",
+        "222": "Oikein",
+        "223": "Oikein (ympyröity)",
+        "224": "Kysymysmerkki",
+        "225": "Kysymysmerkki (ympyröity)",
+        "226": "Nuoli YLÖS",
+        "227": "Nuoli YLÖS (ympyröity)",
+        "228": "Nuoli ALAS",
+        "229": "Nuoli ALAS (ympyröity)",
+        "250": "Pääkallo",
+        "251": "Pääkallo 2",
+        "252": "Suurennuslasi",
+        "title": "Ilmoitustyyppi:"
+      },
+      "usage_info": "Tämä Wired näyttää huoneessa viestin joko tietylle hahmolle tai kaikille.\\n\\nVoit käyttää viestissä tunnisteita, kuten [red]teksti[/red], [b]lihavoitu[/b] tai [blue]info[/blue] muokataksesi sen väriä tai tyyliä.",
+      "visibility_selection": {
+        "0": "Vain tietylle hahmolle",
+        "1": "Kaikille",
+        "title": "Viestin näkyvyys:"
+      }
+    },
     "sign_filter": "Suodata kyltin mukaan",
     "sign_selection": "Kyltti:",
     "signal": {
@@ -470,14 +525,14 @@
       "expand": "Näytä lisäasetukset",
       "furni": {
         "0": "Käytä laukaisevaa tavaraa",
-        "100": "Käytä valittuja tavaroita",
-        "101": "Käytä otosta",
+        "100": "Ensisijaiset tavaravalinnat",
+        "101": "Toissijaiset tavaravalinnat",
         "200": "Käytä tavaroita Wired-valitsijasta",
         "201": "Käytä tavaroita signaalista",
         "900": "Kaikki huoneen tavarat",
         "title": {
           "match": {
-            "0": "Tavarat, joiden pitää täsmätä:",
+            "0": "Tavarat, joita verrataan",
             "1": "Tavarat, joihin verrataan:"
           },
           "mv": {
@@ -720,6 +775,7 @@
         "caption": "0=teksti0\\n1=teksti1\\n2=...",
         "title": "Liitä teksti muuttujaan:"
       },
+      "daily_task_name": "Päivittäisen tehtävän tunnus:",
       "duration": {
         "0": "millisekuntia",
         "1": "sekuntia",
@@ -787,7 +843,12 @@
       "time_selection": "Ajan valinta",
       "trigger_options": {
         "0": "Luotu",
-        "1": "Arvoa on muutettu",
+        "1": {
+          "0": "Nousi",
+          "1": "Laski",
+          "2": "Pysyi ennallaan",
+          "title": "Arvoa on muutettu"
+        },
         "2": "Poistettu",
         "title": "Laukaise, kun muuttuja on:"
       },
@@ -809,7 +870,16 @@
       }
     },
     "whatissaid": "Mitä sanotaan?:",
-    "whisper": "Kuiskaa"
+    "whisper": "Kuiskaa",
+    "write_to_logs": {
+      "log_level": {
+        "title": "Lokitaso:"
+      },
+      "log_message": {
+        "title": "Lokiviesti:"
+      },
+      "view": "Näytä lokit"
+    }
   },
   "pickfurnis": {
     "caption": "Valitse tavarat [{{count}}/{{limit}}]",

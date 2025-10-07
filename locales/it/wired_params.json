@@ -135,9 +135,9 @@
       "11": "Balla",
       "dance": {
         "1": "Hab-Hop",
-        "2": "The Rollie",
+        "2": "Pogo Mogo",
         "3": "Duck Funk",
-        "4": "Pogo Mogo"
+        "4": "The Rollie"
       },
       "sign": {
         "0": "0",
@@ -272,6 +272,10 @@
     },
     "from_another_room": "Da un'altra stanza",
     "from_value": "Dal valore",
+    "furni_picking": {
+      "tooltip": "Abilita selezione Furni"
+    },
+    "general_box_info": "Informazioni sull'uso:",
     "groupselection": "Scegli gruppo:",
     "grouptype": {
       "0": "Gruppo attuale",
@@ -285,6 +289,7 @@
     "levelup": {
       "first_level_xp": "XP di base:",
       "increase_factor": "Fattore d'incremento (%):",
+      "interpolation_placeholder": "5=100             (Level 5 = 100 XP)\\n10=500\\n20=4000\\n...",
       "max_level": "Livello massimo:",
       "mode": {
         "0": "Inserimento manuale",
@@ -300,12 +305,31 @@
       "subvariable": {
         "0": "Livello Attuale:",
         "1": "XP Attuale:",
-        "2": "Progressione del livello:",
-        "3": "Progressione del livello %:",
+        "2": "Progresso lvl:",
+        "3": "Progresso lvl %:",
         "4": "Totale XP richiesto:",
         "5": "XP rimanenti:",
         "6": "È al massimo:",
         "7": "Livello massimo:"
+      }
+    },
+    "menu": {
+      "clear_picks": "Raccolte furni pulite",
+      "close": "Chiudi",
+      "copy": "Copia configurazione",
+      "copy_paste": {
+        "tooltip": "Puoi copiare-incollare le configurazioni Wired tra le scatole Wired dello stesso tipo"
+      },
+      "open_menu": "Apri lo Strumento Creatore di Wired",
+      "paste": "Incolla configurazione",
+      "paste_into": {
+        "tooltip": "Mentre questa opzione è attiva e la scatola è aperta, fai doppio click sulle altre scatole Wired per copiarvi le configurazioni attuali",
+        "title": "Copia in un altro Wired"
+      },
+      "reset": "Ripristino impostazioni predefinite",
+      "save": {
+        "tooltip": "Salva la configurazione Wired attuale senza chiudere la finestra",
+        "title": "Salva"
       }
     },
     "message": "Messaggio:",
@@ -456,6 +480,37 @@
     "settimewindow": "Tempo massimo consentito: {{timewindow}} secondi",
     "setusersfilter": "Filtra a {{amount}} utenti",
     "shout": "Urla",
+    "show_message": {
+      "style_selection": {
+        "34": "Notifica Predefinita",
+        "200": "Notifica Rossa",
+        "201": "Notifica Verde",
+        "202": "Notifica Blu",
+        "210": "Avviso",
+        "211": "Info",
+        "212": "Attenzione",
+        "220": "Sbagliato",
+        "221": "Sbagliato (cerchio)",
+        "222": "Corretto",
+        "223": "Corretto (cerchio)",
+        "224": "Punto interrogativo",
+        "225": "Punto interrogativo (cerchio)",
+        "226": "Freccia SU",
+        "227": "Freccia SU (cerchio)",
+        "228": "Freccia GIÙ",
+        "229": "Freccia GIÙ (cerchio)",
+        "250": "Teschio",
+        "251": "Teschio 2",
+        "252": "Lente d'ingrandimento",
+        "title": "Stile di Notifica:"
+      },
+      "usage_info": "Questa casella Wired mostra un messaggio nella stanza a un utente o a tutti.\\n\\nPotrai usare tag come [red]text[/red], [b]bold[/b] o [blue]info[/blue] per aggiungere colore o stile.",
+      "visibility_selection": {
+        "0": "Solo l'Utente",
+        "1": "Tutti",
+        "title": "Visibilità del Messaggio:"
+      }
+    },
     "sign_filter": "Filtra in base al cartello",
     "sign_selection": "Cartello:",
     "signal": {
@@ -471,7 +526,7 @@
       "furni": {
         "0": "Usa l'oggetto innesco",
         "100": "Usa Furni Selezionati",
-        "101": "Usa lo snapshot",
+        "101": "Selezione Furni secondari",
         "200": "Usa Furni da Selettore",
         "201": "Usa Furni da Segnale",
         "900": "Tutti i Furni nella Stanza",
@@ -648,8 +703,8 @@
         "2": "Secondo",
         "3": "Minuto",
         "4": "Ora",
-        "5": "Giorno della settimana",
-        "6": "Giorno del mese",
+        "5": "Giorno settimana",
+        "6": "Giorno mese",
         "7": "Giorno dell'anno",
         "8": "Settimana dell'anno",
         "9": "Mese dell'anno",
@@ -720,6 +775,7 @@
         "caption": "0=text0\\n1=text1\\n2=...",
         "title": "Connetti il testo alla variabile:"
       },
+      "daily_task_name": "Codice Compito Giornaliero:",
       "duration": {
         "0": "Millisecondi",
         "1": "Secondi:",
@@ -747,12 +803,12 @@
         "41": "Imposta il massimo",
         "50": "Casuale con limite superiore",
         "60": "Valore assoluto",
-        "100": "Bitwise E",
-        "101": "Bitwise O",
-        "102": "Bitwise XO",
-        "103": "Bitwise NON",
+        "100": "Bitwise AND",
+        "101": "Bitwise OR",
+        "102": "Bitwise XOR",
+        "103": "Bitwise NOT",
         "104": "Spostamento a sinistra (<<)",
-        "105": "Spostamento a destra (<<)",
+        "105": "Spostamento a destra (>>)",
         "advanced": "...mostra avanzato",
         "tooltip": "Scegli un'operazione",
         "title": "Operazione"
@@ -787,7 +843,12 @@
       "time_selection": "Seleziona tempo",
       "trigger_options": {
         "0": "Creato",
-        "1": "Valore modificato",
+        "1": {
+          "0": "Aumentato",
+          "1": "Diminuito",
+          "2": "Invariato",
+          "title": "Valore modificato"
+        },
         "2": "Eliminato",
         "title": "Innesca quando la variabile è:"
       },
@@ -809,7 +870,16 @@
       }
     },
     "whatissaid": "Cosa dire:",
-    "whisper": "Sussurra"
+    "whisper": "Sussurra",
+    "write_to_logs": {
+      "log_level": {
+        "title": "Livello di log:"
+      },
+      "log_message": {
+        "title": "Messaggio di log:"
+      },
+      "view": "Visualizza log"
+    }
   },
   "pickfurnis": {
     "caption": "Seleziona Furni [{{count}}/{{limit}}]",

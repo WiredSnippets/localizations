@@ -273,6 +273,10 @@
     },
     "from_another_room": "De outro quarto",
     "from_value": "Do valor",
+    "furni_picking": {
+      "tooltip": "Habilitar escolha de mobis"
+    },
+    "general_box_info": "Informações de uso:",
     "groupselection": "Escolha o grupo:",
     "grouptype": {
       "0": "Grupo atual",
@@ -286,6 +290,7 @@
     "levelup": {
       "first_level_xp": "XP base:",
       "increase_factor": "Fator de aumento (%):",
+      "interpolation_placeholder": "5=100             (Level 5 = 100 XP)\\n10=500\\n20=4000\\n...",
       "max_level": "Nível máximo:",
       "mode": {
         "0": "Entrada manual",
@@ -307,6 +312,25 @@
         "5": "XP restante:",
         "6": "Está no máximo:",
         "7": "Nível máximo:"
+      }
+    },
+    "menu": {
+      "clear_picks": "Limpar mobis escolhidos",
+      "close": "Fechar",
+      "copy": "Copiar configuração",
+      "copy_paste": {
+        "tooltip": "Você pode copiar e colar configurações entre Wireds do mesmo tipo"
+      },
+      "open_menu": "Abrir Ferramentas de Criação Wired",
+      "paste": "Colar configuração",
+      "paste_into": {
+        "tooltip": "Enquanto esta opção estiver habilitada e a caixa estiver aberta, clique duas vezes em outros Wireds para copiar as configurações atuais para eles",
+        "title": "Copiar em outro Wired"
+      },
+      "reset": "Voltar configuração padrão",
+      "save": {
+        "tooltip": "Salvar a configuração Wired atual sem fechar a janela",
+        "title": "Salvar"
       }
     },
     "message": "Mensagem:",
@@ -457,6 +481,37 @@
     "settimewindow": "Janela de tempo: {{timewindow}} segundos",
     "setusersfilter": "Filtrar para {{amount}} Habbos",
     "shout": "Gritar",
+    "show_message": {
+      "style_selection": {
+        "34": "Notificação padrão",
+        "200": "Notificação vermelha",
+        "201": "Notificação verde",
+        "202": "Notificação azul",
+        "210": "Alerta",
+        "211": "Informação",
+        "212": "Atenção",
+        "220": "Errado",
+        "221": "Errado (círculo)",
+        "222": "Correto",
+        "223": "Correto (círculo)",
+        "224": "Ponto de interrogação",
+        "225": "Ponto de interrogação (círculo)",
+        "226": "Seta para cima",
+        "227": "Seta para cima (círculo)",
+        "228": "Seta para baixo",
+        "229": "Seta para baixo (círculo)",
+        "250": "Caveira",
+        "251": "Caveira 2",
+        "252": "Lupa",
+        "title": "Estilo de notificação:"
+      },
+      "usage_info": "Este Wired mostra uma mensagem na sala para um usuário ou para todos.\\n\\nVocê pode usar tags como [red]text[/red], [b]bold[/b],] ou [blue]info[/blue] para adicionar cor ou estilo.",
+      "visibility_selection": {
+        "0": "Somente o usuário",
+        "1": "Todos",
+        "title": "Visibilidade da mensagem:"
+      }
+    },
     "sign_filter": "Fitrar por sinal",
     "sign_selection": "Sinais:",
     "signal": {
@@ -472,7 +527,7 @@
       "furni": {
         "0": "Use o item de ativação",
         "100": "Use mobis escolhidos",
-        "101": "Use o instantâneo",
+        "101": "Escolha de mobis secundários",
         "200": "Usar mobis do seletor",
         "201": "Usar mobis do sinal",
         "900": "Todos os mobis do quarto",
@@ -721,6 +776,7 @@
         "caption": "0=text0\\n1=text1\\n2=...",
         "title": "Conectar texto a variável:"
       },
+      "daily_task_name": "Código de Tarefa Diária:",
       "duration": {
         "0": "Milissegundos",
         "1": "Segundos",
@@ -788,7 +844,12 @@
       "time_selection": "Selecionar tempo",
       "trigger_options": {
         "0": "Criada",
-        "1": "Mudança de valor",
+        "1": {
+          "0": "Aumentou",
+          "1": "Diminuiu",
+          "2": "Inalterado",
+          "title": "Mudança de valor"
+        },
         "2": "Apagada",
         "title": "Ativar quando a variável for:"
       },
@@ -810,7 +871,16 @@
       }
     },
     "whatissaid": "O que é dito:",
-    "whisper": "Sussurrar"
+    "whisper": "Sussurrar",
+    "write_to_logs": {
+      "log_level": {
+        "title": "Nível de registro:"
+      },
+      "log_message": {
+        "title": "Mensagem de registro:"
+      },
+      "view": "Visualizar registros"
+    }
   },
   "pickfurnis": {
     "caption": "Selecionar Mobi [{{count}}/{{limit}}]",

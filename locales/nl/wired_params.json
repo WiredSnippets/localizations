@@ -272,6 +272,10 @@
     },
     "from_another_room": "Vanuit een andere kamer",
     "from_value": "Vanuit waarde",
+    "furni_picking": {
+      "tooltip": "Meubi selecteren aanzetten"
+    },
+    "general_box_info": "Gebruiksinformatie:",
     "groupselection": "Kies een groep:",
     "grouptype": {
       "0": "Huidige groep",
@@ -285,6 +289,7 @@
     "levelup": {
       "first_level_xp": "Basis XP:",
       "increase_factor": "Verhogingsfactor (%):",
+      "interpolation_placeholder": "5=100             (Level 5 = 100 XP)\\n10=500\\n20=4000\\n...",
       "max_level": "Max Niveau:",
       "mode": {
         "0": "Handmatige input",
@@ -306,6 +311,25 @@
         "5": "Resterende XP:",
         "6": "Is maximaal:",
         "7": "Maximaal Niveau:"
+      }
+    },
+    "menu": {
+      "clear_picks": "Meubi selecteren uitzetten",
+      "close": "Sluit",
+      "copy": "Configuratie Kopiëren",
+      "copy_paste": {
+        "tooltip": "Je kunt de configuratie kopiëren en plakken tussen Wired boxen van hetzelfde type"
+      },
+      "open_menu": "Open de Wired Creator Instellingen",
+      "paste": "Configuratie plakken",
+      "paste_into": {
+        "tooltip": "Terwijl deze optie is ingeschakeld en het instellingenvenster open is, dubbelklik je op andere de Wired Boxen om de huidige configuratie te kopiëren.",
+        "title": "Kopieer naar andere Wired"
+      },
+      "reset": "Terugzetten naar standaardinstellingen",
+      "save": {
+        "tooltip": "Sla de huidige Wired-configuratie op zonder het venster te sluiten",
+        "title": "Opslaan"
       }
     },
     "message": "Wat is je bericht:",
@@ -456,6 +480,37 @@
     "settimewindow": "Tijdvenster: {{timewindow}} seconde(n)",
     "setusersfilter": "Filter op {{amount}} spelers",
     "shout": "Schreeuw",
+    "show_message": {
+      "style_selection": {
+        "34": "Standaard notificatie",
+        "200": "Rode notificatie",
+        "201": "Groene notificatie",
+        "202": "Blauwe notificatie",
+        "210": "Waarschuwing",
+        "211": "Informatie",
+        "212": "Waarschuwing",
+        "220": "Fout",
+        "221": "Fout (cirkel)",
+        "222": "Goed",
+        "223": "Goed (cirkel)",
+        "224": "Vraagteken",
+        "225": "Vraagteken (cirkel)",
+        "226": "Pijl OMHOOG",
+        "227": "Pijl OMHOOG (cirkel)",
+        "228": "Pijl OMLAAG",
+        "229": "Pijl OMLAAG (cirkel)",
+        "250": "Schedel",
+        "251": "Schedel 2",
+        "252": "Vergrootglas",
+        "title": "Notificatie-stijl:"
+      },
+      "usage_info": "Met deze Wired box kun je een bericht in de kamer aan één gebruiker of iedereen laten zien. Je kunt tags gebruiken zoals [rood]tekst[/rood], [b]vetgedrukt[/b] of [blauw]info[/blauw] om kleur of stijl toe te voegen.",
+      "visibility_selection": {
+        "0": "Alleen de gebruiker",
+        "1": "Iedereen",
+        "title": "Zichtbaarheid van berichten:"
+      }
+    },
     "sign_filter": "Sorteer op teken",
     "sign_selection": "Bord:",
     "signal": {
@@ -471,7 +526,7 @@
       "furni": {
         "0": "Gebruik het triggerende item",
         "100": "Gebruik gekozen meubi",
-        "101": "Gebruik de snapshot",
+        "101": "Andere gekozen meubi",
         "200": "Gebruik meubi van de Selector",
         "201": "Gebruik meubi van Signal",
         "900": "Alle meubi in de kamer",
@@ -720,6 +775,7 @@
         "caption": "0=tekst0\\n1=tekst1\\n2=...",
         "title": "Link tekst aan variabele:"
       },
+      "daily_task_name": "Dagelijkse Taak code:",
       "duration": {
         "0": "Milliseconden",
         "1": "Seconden",
@@ -787,7 +843,12 @@
       "time_selection": "Kies tijd",
       "trigger_options": {
         "0": "Aangemaakt",
-        "1": "Van waarde veranderd",
+        "1": {
+          "0": "Toegenomen",
+          "1": "Afgenomen",
+          "2": "Onveranderd",
+          "title": "Van waarde veranderd"
+        },
         "2": "Verwijderd",
         "title": "Activeer als variabele is:"
       },
@@ -809,7 +870,16 @@
       }
     },
     "whatissaid": "Wat gezegd is:",
-    "whisper": "Fluister"
+    "whisper": "Fluister",
+    "write_to_logs": {
+      "log_level": {
+        "title": "Logboek Niveau:"
+      },
+      "log_message": {
+        "title": "Logboek bericht:"
+      },
+      "view": "Bekijk de logboeken"
+    }
   },
   "pickfurnis": {
     "caption": "Kies Meubi [{{count}}/{{limit}}]",

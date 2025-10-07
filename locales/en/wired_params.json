@@ -272,6 +272,10 @@
     },
     "from_another_room": "From another room",
     "from_value": "From value",
+    "furni_picking": {
+      "tooltip": "Enable furni picking"
+    },
+    "general_box_info": "Usage information:",
     "groupselection": "Choose group:",
     "grouptype": {
       "0": "Current group",
@@ -285,7 +289,7 @@
     "levelup": {
       "first_level_xp": "Base XP:",
       "increase_factor": "Increase factor (%):",
-      "interpolation_placeholder": "5",
+      "interpolation_placeholder": "5=100             (Level 5 = 100 XP)\\n10=500\\n20=4000\\n...",
       "max_level": "Max level:",
       "mode": {
         "0": "Manual input",
@@ -307,6 +311,25 @@
         "5": "XP remaining:",
         "6": "Is maxed:",
         "7": "Max level:"
+      }
+    },
+    "menu": {
+      "clear_picks": "Clear furni picks",
+      "close": "Close",
+      "copy": "Copy configuration",
+      "copy_paste": {
+        "tooltip": "You are able to copy-paste Wired configurations between Wired boxes of the same type"
+      },
+      "open_menu": "Open Wired Creator Tools",
+      "paste": "Paste configuration",
+      "paste_into": {
+        "tooltip": "While this option is enabled and the box is open, double click other Wired boxes to copy the current configurations into them",
+        "title": "Copy into other Wired"
+      },
+      "reset": "Reset to defaults",
+      "save": {
+        "tooltip": "Save the current Wired configuration without closing the window",
+        "title": "Save"
       }
     },
     "message": "Message:",
@@ -457,6 +480,37 @@
     "settimewindow": "Time window: {{timewindow}} seconds",
     "setusersfilter": "Filter to {{amount}} users",
     "shout": "Shout",
+    "show_message": {
+      "style_selection": {
+        "34": "Default notification",
+        "200": "Red notification",
+        "201": "Green notification",
+        "202": "Blue notification",
+        "210": "Alert",
+        "211": "Info",
+        "212": "Warning",
+        "220": "Wrong",
+        "221": "Wrong (circle)",
+        "222": "Correct",
+        "223": "Correct (circle)",
+        "224": "Question mark",
+        "225": "Question mark (circle)",
+        "226": "Arrow UP",
+        "227": "Arrow UP (circle)",
+        "228": "Arrow DOWN",
+        "229": "Arrow DOWN (circle)",
+        "250": "Skull",
+        "251": "Skull 2",
+        "252": "Magnifier",
+        "title": "Notification style:"
+      },
+      "usage_info": "This Wired box shows a message in the room to one user or everyone.\\n\\nYou can use tags like [red]text[/red], [b]bold[/b], or [blue]info[/blue] to add color or style.",
+      "visibility_selection": {
+        "0": "Only the user",
+        "1": "Everyone",
+        "title": "Message visibility:"
+      }
+    },
     "sign_filter": "Filter by sign",
     "sign_selection": "Sign:",
     "signal": {
@@ -472,7 +526,7 @@
       "furni": {
         "0": "Use the triggering item",
         "100": "Use picked furnis",
-        "101": "Use the snapshot",
+        "101": "Secondary furni picks",
         "200": "Use furni from Selector",
         "201": "Use furni from Signal",
         "900": "All furni in the room",
@@ -721,6 +775,7 @@
         "caption": "0=text0\\n1=text1\\n2=...",
         "title": "Connect text to variable:"
       },
+      "daily_task_name": "Daily task code:",
       "duration": {
         "0": "Milliseconds",
         "1": "Seconds",
@@ -788,7 +843,12 @@
       "time_selection": "Select time",
       "trigger_options": {
         "0": "Created",
-        "1": "Value changed",
+        "1": {
+          "0": "Increased",
+          "1": "Decreased",
+          "2": "Unchanged",
+          "title": "Value changed"
+        },
         "2": "Deleted",
         "title": "Trigger when variable is:"
       },
@@ -810,7 +870,16 @@
       }
     },
     "whatissaid": "What is said:",
-    "whisper": "Whisper"
+    "whisper": "Whisper",
+    "write_to_logs": {
+      "log_level": {
+        "title": "Log level:"
+      },
+      "log_message": {
+        "title": "Log message:"
+      },
+      "view": "View logs"
+    }
   },
   "pickFurni": {
     "furnitypematches": "All Furni of the same type will act as a Trigger"

@@ -42,10 +42,8 @@
     "variable_applied_to": "La variable puede ser aplicada a",
     "shared_by": "Compartido por:"
   },
-  "playground_overview_explains": {
-    "short_period": "Este causante no necesita un usuario, bot o mascota para funcionar, su función es repetir infinitamente los efectos de la pila.",
-    "has_handitem": "Cuando el avatar tenga la bebida <b>\"café\"</b> la condición será aceptada.",
-    "selector_users_area_playground": "Este selector permite obtener todos los usuarios que se encuentren en una <b>zona determinada de la sala definida por ti</b>."
+  "alerts": {
+    "click_remember": "Recuerda que puedes ver el contenido de los wireds dando doble click sobre ellos."
   },
   "navbar": {
     "community": "Comunidad",

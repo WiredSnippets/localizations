@@ -1,7 +1,7 @@
 {
   "applysnapshot": "Usar Furni para ajustar condiciones",
   "badgereceived": {
-    "body": "Acabas de recibir una Placa. Mira en Mis Cosas.",
+    "body": "Acabas de recibir una placa. ¡Mira en tu Inventario!",
     "title": "¡Placa recibida!"
   },
   "chatmsgtoolong": "El mensaje solo puede tener 100 caracteres.",
@@ -160,8 +160,8 @@
         "17": "Tarjeta amarilla"
       }
     },
-    "action_selection": "Acción:",
-    "allmatch": "Todo el texto coincide.",
+    "action_selection": "Acción desencadenante:",
+    "allmatch": "Coincide con cualquier texto",
     "allowafter2": "Activo después de:",
     "allowafter": "El Causante se activará en {{seconds}} segundos",
     "allowbefore2": "Activo antes de:",
@@ -169,43 +169,43 @@
     "anyavatar": "Cualquier usuario",
     "area_selection": {
       "clear": "Limpiar",
-      "info": "Para elegir un área, simplemente haz clic en el botón \"Seleccionar Área\" y procede a presionar y arrastrar tu cursor para marcar el área deseada en la sala.",
+      "info": "Para escoger un área, solo haz clic en el botón \"Seleccionar Área\" y luego presiona y arrastra el cursor para marcar el área deseada de la sala.",
       "select": "Seleccionar Área",
       "title": "Selección de área"
     },
     "bot": {
-      "name": "Nombre del Bot",
-      "usage": "Dar item de mano con bot"
+      "name": "Nombre del bot:",
+      "usage": "Dar objeto de mano con bot"
     },
     "capture": {
-      "figure": "Copiar Mis Looks",
-      "handitem": "Copiar mi ítem de mano"
+      "figure": "Copiar mi look",
+      "handitem": "Copiar mi objeto de mano"
     },
     "carry_mode": {
-      "0": "están de pie directamente sobre los furnis en movimiento",
-      "1": "están de pie en la misma baldosa que los furnis en movimiento",
-      "title": "Los usuarios son transportados cuando:"
+      "0": "Están encima del furni en movimiento",
+      "1": "Están en la misma baldosa que el furni en movimiento",
+      "title": "Transportar usuarios cuando:"
     },
-    "certainavatar": "Usuario concreto",
+    "certainavatar": "Usuario especificado por nombre:",
     "chat": {
-      "hide": "Ocultar el mensaje del desencadenante.",
-      "onlyowner": "Solo el dueño de la sala puede desencadenar."
+      "hide": "Ocultar el mensaje desencadenante",
+      "onlyowner": "Solo el dueño de la sala coincide"
     },
-    "chatcontains": "Contiene palabra clave",
-    "chattriggertype": "Elige tipo:",
-    "choose_type": "Elegir tipo:",
+    "chatcontains": "Contiene la palabra clave",
+    "chattriggertype": "Escoge el tipo:",
+    "choose_type": "Opciones:",
     "click_user": {
       "block_menu_open": "No abrir el menú del avatar",
       "do_not_rotate": "No rotar",
       "settings": "Cuando se hace clic en un usuario:"
     },
     "clock_control": {
-      "0": "Empezar",
+      "0": "Iniciar",
       "1": "Parar",
-      "2": "Resetear",
+      "2": "Reiniciar",
       "3": "Pausar",
       "4": "Reanudar",
-      "title": "Seleccionar opción"
+      "title": "Opciones:"
     },
     "clock_minutes": "{{minutes}} minutos",
     "clock_minutes_elapsed": "{{minutes}} minutos transcurridos",
@@ -213,31 +213,31 @@
     "clock_seconds_elapsed": "{{seconds}} segundos transcurridos",
     "comparison": {
       "0": "Menor que",
-      "1": "Igual",
+      "1": "Igual a",
       "2": "Mayor que"
     },
-    "comparison_selection": "Elige tipo:",
+    "comparison_selection": "Opciones:",
     "cond_eval": {
       "note": "Puedes seleccionar las Condiciones WIRED a las que se aplica este complemento. Si la selección está vacía, se aplicará a todas las codiciones disponibles."
     },
     "condition": {
       "altitude": "Altura actual",
       "direction": "Dirección actual",
-      "position": "Posición actual en la Sala",
-      "state": "Estado actual del Furni"
+      "position": "Posición actual",
+      "state": "Estado actual"
     },
-    "conditions": "Elige el criterio a programar:",
+    "conditions": "Escoge el parámetro a guardar:",
     "create_subvariables": {
       "advanced": "Subvariables avanzadas:",
       "title": "Crear subvariables:"
     },
     "dance_filter": "Filtrar por baile",
     "dance_selection": "Baile:",
-    "delay": "Retrasar Efecto unos {{seconds}} segundos",
-    "direction_selection": "Elegir dirección:",
+    "delay": "Retrasar acción por {{seconds}} segundos",
+    "direction_selection": "Escoge la dirección:",
     "emptytiles": "Space placed Furnis {{tiles}} tiles apart",
     "enddate": "Fecha fin",
-    "enter_names": "Introducir nombres de usuarios:",
+    "enter_names": "Usuarios a seleccionar:",
     "enteravatarname": "Introduce un nombre de usuario",
     "enterawordorphrase": "Introduce una palabra o frase",
     "entermessage": "Introduce un mensaje",
@@ -268,16 +268,20 @@
         "3": "Pajaritos",
         "4": "Trampa de arena"
       },
-      "effect_selection": "Elige un efecto:"
+      "effect_selection": "Escoge un efecto:"
     },
     "from_another_room": "Desde otra sala",
     "from_value": "Desde un valor",
-    "groupselection": "Elige grupo:",
+    "furni_picking": {
+      "tooltip": "Activar selección de furnis"
+    },
+    "general_box_info": "Información de uso:",
+    "groupselection": "Escoge un grupo:",
     "grouptype": {
       "0": "Grupo actual",
-      "1": "Selecciona de la lista"
+      "1": "Seleccionar de la lista:"
     },
-    "handitem": "Item de Mano",
+    "handitem": "Objeto de mano:",
     "length": {
       "minutes": "Duración: {{minutes}} minutos"
     },
@@ -285,6 +289,7 @@
     "levelup": {
       "first_level_xp": "XP base:",
       "increase_factor": "Factor de incremento (%):",
+      "interpolation_placeholder": "5=100             (Nivel 5 = 100 XP)\\n10=500\\n20=4000\\n...",
       "max_level": "Nivel máximo:",
       "mode": {
         "0": "Entrada manual",
@@ -308,11 +313,30 @@
         "7": "Nivel máximo:"
       }
     },
-    "message": "¿Cuál es el mensaje?:",
+    "menu": {
+      "clear_picks": "Borrar selección de furnis",
+      "close": "Cerrar",
+      "copy": "Copiar configuración",
+      "copy_paste": {
+        "tooltip": "Puedes copiar y pegar configuraciones Wired entre cajas Wired del mismo tipo."
+      },
+      "open_menu": "Abrir herramientas de creación Wired",
+      "paste": "Pegar configuración",
+      "paste_into": {
+        "tooltip": "Mientras esta opción esté habilitada y la caja esté abierta, haz doble clic en otras cajas Wired para copiar las configuraciones actuales en ellas.",
+        "title": "Copiar en otro Wired"
+      },
+      "reset": "Restablecer a los valores predeterminados",
+      "save": {
+        "tooltip": "Guardar la configuración Wired actual sin cerrar la ventana",
+        "title": "Guardar"
+      }
+    },
+    "message": "Mensaje:",
     "movefurni": {
       "0": "Sin movimiento",
       "1": "Mover aleatoriamente",
-      "title": "Mover Furni:"
+      "title": "Escoge el movimiento:"
     },
     "movement": {
       "horizontal": {
@@ -325,19 +349,19 @@
       }
     },
     "movephysics": {
-      "block_by_furni": "Está bloqueado por muebles",
+      "block_by_furni": "Está bloqueado por furnis",
       "keep_altitude": "Mantener la altura de los furnis",
-      "move_through_furni": "Mover a través de los muebles",
+      "move_through_furni": "Mover a través de furnis",
       "move_through_users": "Mover a través de usuarios"
     },
-    "moveuser": "Mover usuario.",
+    "moveuser": "Escoge el movimiento:",
     "neighborhood_selection": "Seleccionar Baldosas Vecinas",
     "not_requireall": {
-      "0": "Si uno o más Furnis están seleccionados NO tienen Furni encima",
-      "1": "Todos los Furnis seleccionados NO tienen Furni encima",
+      "0": "Algunos de los furnis seleccionados no tienen furnis encima",
+      "1": "Todos los furnis seleccionados no tienen furnis encima",
       "2": "Si uno de los furnis seleccionados no tiene avatar",
       "3": "Si todos los furnis seleccionados no tienen avatares en ellos",
-      "title": "Define la condición:"
+      "title": "Cumplir condición si:"
     },
     "onfurni": {
       "0": "Furni sobre furni",
@@ -350,8 +374,8 @@
       "1": "Disminuir",
       "2": "Establecer valor"
     },
-    "pickamount": "Recoger {{picks}} efectos",
-    "picktriggerer": "Elige causante:",
+    "pickamount": "Usar {{picks}} Efectos WIRED",
+    "picktriggerer": "Escoge un desencadenante:",
     "placeholder_selection": {
       "tooltip": "Elige un marcador de posición",
       "title": "Elegir marcador de posición:"
@@ -362,12 +386,12 @@
       "3": "3º",
       "4": "4º"
     },
-    "placement_selection": "Posición:",
+    "placement_selection": "Escoge el lugar:",
     "placetodirection": "Place Furnis in this direction",
     "points_operation": {
-      "0": "Añadir puntos",
+      "0": "Dar puntos",
       "1": "Quitar puntos",
-      "title": "Tipo de efecto"
+      "title": "Opciones:"
     },
     "prizelimit": "Límite de premios total: {{amount}}",
     "quantifier": {
@@ -381,41 +405,41 @@
       },
       "users": {
         "0": "Todos los usuarios coinciden",
-        "1": "Cualquiera de los usuarios coincide",
+        "1": "Cualquier usuario coincide",
         "neg": {
-          "0": "Cualquiera de los usuarios no coincide",
-          "1": "Ninguno de los usuarios coincide"
+          "0": "Algún usuario no coincide",
+          "1": "Ningún usuario coincide"
         }
       },
       "variables": {
-        "0": "Todas las variables coinciden",
-        "1": "Alguna variable coincide",
+        "0": "Todos coinciden",
+        "1": "Algunos coinciden",
         "neg": {
-          "0": "Alguna variable no coincide",
-          "1": "Ninguna variable coincide"
+          "0": "Algunos no coinciden",
+          "1": "Ninguno coincide"
         }
       }
     },
-    "quantifier_selection": "Condición coincidencia si:",
+    "quantifier_selection": "Cumplir condición si:",
     "remote_selection": {
       "filter": {
-        "0": "Usar todas las pilas de Wired seleccionadas.",
-        "1": "Tomar una cantidad aleatoria.",
-        "title": "Filtrar las pilas."
+        "0": "Usar todas las pilas seleccionadas",
+        "1": "Usar una cantidad aleatoria:",
+        "title": "Filtra las pilas:"
       },
       "type": {
-        "0": "Unión.",
-        "1": "Intersección.",
-        "info": "Elige el tipo de comportamiento cuando se seleccionan varias pilas de Wired.",
+        "0": "Unión",
+        "1": "Intersección",
+        "info": "Escoge el comportamiento deseado al seleccionar varias pilas.",
         "title": "Tipo de selección:"
       }
     },
     "requireall": {
-      "0": "... uno de los Furni seleccionados tiene otro Furni sobre él",
-      "1": "... todos los Furni seleccionados tienen otro Furni sobre ellos",
-      "2": "Si uno de los furnis seleccionados tiene un avatar",
-      "3": "Si todos los furnis seleccionados tienen avatares en ellos",
-      "title": "Los Causantes sólo funcionarán si..."
+      "0": "Uno de los furnis seleccionados tiene otro furni encima",
+      "1": "Todos los furnis seleccionados tienen furnis encima",
+      "2": "Uno de los furnis seleccionados tiene un usuario en él",
+      "3": "Todos los furnis seleccionados tienen usuarios en ellos",
+      "title": "Permitir que funcione sólo si:"
     },
     "requiredformationsize": "At least {{furnis}} Furnis match state/ location",
     "room_selection": {
@@ -426,36 +450,67 @@
       "0": "Sin rotación",
       "1": "Rotar según las agujas del reloj",
       "2": "Rotar contra las agujas del reloj",
-      "3": "En dirección aleatoria",
-      "title": "Rotar Furni:"
+      "3": "Rotar en dirección aleatoria",
+      "title": "Escoge la rotación:"
     },
-    "rotateuser": "Rotar usuario.",
+    "rotateuser": "Escoge la rotación:",
     "seconds": "{{seconds}} segundos",
-    "select_options": "Elegir opciones:",
-    "selection_type": "Opciones selección de furni:",
+    "select_options": "Opciones:",
+    "selection_type": "Opciones:",
     "selector_option": {
       "0": "Filtrar selección existente",
-      "1": "Invertir"
+      "1": "Invertir selección"
     },
-    "selector_options_selector": "Opciones selector:",
-    "setaltitude": "Elegir altitud:",
+    "selector_options_selector": "Opciones de selector:",
+    "setaltitude": "Seleccionar altitud:",
     "setamount": "Comparar con: {{amount}}",
-    "setanimationtime": "Tiempo de animación: {{ms}} milisegundos",
-    "setexecutions": "Número de ejecuciones: {{amount}}",
-    "setfilter": "Cantidad de filtro:",
+    "setanimationtime": "Tiempo de animación: {{ms}} ms",
+    "setexecutions": "Cantidad de ejecuciones: {{amount}}",
+    "setfilter": "Cantidad a filtrar:",
     "setfurnifilter": "Filtrar a  {{amount}} furni",
-    "setlongtime": "Configurar tiempo: {{time}}",
+    "setlongtime": "Establecer tiempo: {{time}}",
     "setpoints2": "Establecer los puntos:",
     "setpoints": "Establecer puntos: {{points}} puntos",
     "setscore2": "El equipo tiene que marcar:",
-    "setscore": "El equipo debe conseguir: {{points}} puntos",
-    "setshorttime": "Establecer intervalo: {{ms}} milisegundos",
+    "setscore": "El equipo debe alcanzar: {{points}} puntos",
+    "setshorttime": "Establecer intervalo: {{ms}} ms",
     "settime2": "Fijar tiempo:",
     "settime": "Establecer tiempo: {{seconds}} segundos",
-    "settimesingame": "Número de veces por juego: {{times}}",
-    "settimewindow": "Intervalo de tiempo: {{timewindow}} segundos",
+    "settimesingame": "Cantidad de veces por juego: {{times}}",
+    "settimewindow": "Establecer intervalo: {{timewindow}} segundos",
     "setusersfilter": "Filtrar a {{amount}} usuarios",
     "shout": "Gritar",
+    "show_message": {
+      "style_selection": {
+        "34": "Notificación por defecto",
+        "200": "Notificación Roja",
+        "201": "Notificación Verde",
+        "202": "Notificación Azul",
+        "210": "Alerta",
+        "211": "Información",
+        "212": "Atención",
+        "220": "Incorrecto",
+        "221": "Incorrecto (círculo)",
+        "222": "Correcto",
+        "223": "Correcto (círculo)",
+        "224": "Interrogación",
+        "225": "Interrogación (círculo)",
+        "226": "Flecha ARRIBA",
+        "227": "Flecha ARRIBA (círculo)",
+        "228": "Flecha ABAJO",
+        "229": "Flecha ABAJO (círculo)",
+        "250": "Calavera",
+        "251": "Calavera 2",
+        "252": "Lupa",
+        "title": "Estilo de notificación:"
+      },
+      "usage_info": "Esta caja Wired muestra un mensaje en la sala a un usuario o a todos.\\n\\nPuedes usar etiquetas como [red]text[/red], [b]bold[/b], o [blue]info[/blue] para añadir color o darle formato.",
+      "visibility_selection": {
+        "0": "Solo el/la usuario/a",
+        "1": "Todo el mundo",
+        "title": "Visibilidad del mensaje:"
+      }
+    },
     "sign_filter": "Filtrar por señal",
     "sign_selection": "Señal:",
     "signal": {
@@ -463,32 +518,32 @@
       "split_furni": "Enviar señal para cada furni",
       "split_users": "Enviar señal para cada usuario"
     },
-    "skipactions": "Evitar los efectos de las últimas {{skips}} ejecuciones",
+    "skipactions": "Evitar los Efectos WIRED de las últimas {{skips}} ejecuciones",
     "sources": {
       "collapse": "Ocultar ajustes avanzados",
       "context": "Variables de contexto",
       "expand": "Mostrar ajustes avanzados",
       "furni": {
-        "0": "Usar ítem desencadenante",
+        "0": "Usar furni desencadenante",
         "100": "Usar furnis seleccionados",
-        "101": "Utilizar la instantánea",
+        "101": "Selección de furnis secundarios",
         "200": "Usar furnis de Selector",
         "201": "Usar furnis de Señal",
         "900": "Todos los furnis de la sala",
         "title": {
           "match": {
-            "0": "Furni a coincidir:",
-            "1": "Furni a comparar con:"
+            "0": "Furnis a coincidir:",
+            "1": "Furnis a comparar:"
           },
           "mv": {
-            "0": "El furni en movimiento:",
-            "1": "El furni objetivo:"
+            "0": "Furnis a mover:",
+            "1": "Furni objetivo:"
           },
-          "mv_user2": "El usuario que se mueve:",
-          "mv_user": "El usuario objetivo:",
+          "mv_user2": "Usuario en movimiento:",
+          "mv_user": "Usuarios a mover:",
           "physics": {
             "0": "Mover por los furnis:",
-            "1": "Bloqueado por furni:"
+            "1": "Bloqueado por furnis:"
           },
           "signal_antenna": "Antenas:",
           "signal_forward": "Furni a adelantar",
@@ -497,40 +552,40 @@
             "1": "Estado/posición a comprobar:",
             "2": "Estado/posición a establecer:"
           },
-          "title": "Seleccionar fuente de los furnis:"
+          "title": "Escoge la fuente de furnis:"
         }
       },
       "global": "Variables globales",
       "merged": {
         "title": {
-          "neighborhood": "En la cercanía de:",
-          "variables": "Fuente de la variable:",
-          "variables_destination": "Variable de destino:",
+          "neighborhood": "En cercanía de:",
+          "variables": "Escoge la fuente de la variable:",
+          "variables_destination": "Escoge el objetivo de la variable:",
           "variables_reference": "Variable de referencia:",
           "title": "Seleccionar fuente:"
         }
       },
       "users": {
-        "0": "Utilizar el usuario desencadenante",
+        "0": "Usar usuario desencadenante",
         "10": "El usuario alcanzado",
-        "11": "El usuario seleccionado",
-        "100": "Utilizar el bot especificado por nombre",
-        "101": "Utilizar el usuario especificado por nombre",
-        "200": "Utilizar usuarios de Selector",
-        "201": "Utilizar usuarios de Señal",
-        "900": "Todos los usuarios de la sala",
+        "11": "El usuario clicado",
+        "100": "Usar bot especificado por nombre",
+        "101": "Usar usuario especificado por nombre",
+        "200": "Usar usuarios del Selector",
+        "201": "Usar usuarios de la Señal",
+        "900": "Usar todos los usuarios de la sala",
         "title": {
           "bots": "Seleccionar fuente de bots:",
-          "carry": "Permitir el transporte de:",
+          "carry": "Permitir transportar usuarios:",
           "match": {
-            "0": "Los usuarios que coinciden:",
-            "1": "Usuarios a comparar con:"
+            "0": "Usuarios a coincidir:",
+            "1": "Usuarios a comparar:"
           },
           "physics": {
-            "0": "Mover a través de los usuarios:"
+            "0": "Mover a través de usuarios:"
           },
           "signal_forward": "Usuarios para avanzar:",
-          "title": "Seleccionar fuente de usuarios:"
+          "title": "Escoge la fuente de usuarios:"
         }
       }
     },
@@ -541,17 +596,17 @@
       "users": "Usuario"
     },
     "start": {
-      "following": "Empezar a Seguir"
+      "following": "Empezar a seguir"
     },
     "startdate": "Fecha inicio",
-    "startdir": "Inicio",
+    "startdir": "Movimiento inicial:",
     "state_match": "Solo selecciona furnis si el estado coincide",
     "state_trigger": {
-      "0": "Causante para todos los estados",
-      "1": "Causante para el estado actual"
+      "0": "Desencadenar para todos los estados",
+      "1": "Desencadenar para el estado actual"
     },
     "stop": {
-      "following": "Dejar de Seguir"
+      "following": "Dejar de seguir"
     },
     "talk": "Hablar",
     "team": {
@@ -560,41 +615,41 @@
       "3": "Azul",
       "4": "Amarillo",
       "any": "Cualquier equipo",
-      "triggerer": "Equipo de activación",
-      "title": "Elige equipo"
+      "triggerer": "Equipo desencadenante",
+      "title": "Escoge el equipo:"
     },
     "team_type": {
       "0": "Wired",
       "1": "Battle Banzai",
-      "2": "Congelar"
+      "2": "Freeze"
     },
     "teleport": {
       "options": {
-        "0": "Teletransporte rapido",
-        "title": "Opciones de teletransporte:"
+        "0": "Teletransportación rápida",
+        "title": "Opciones:"
       }
     },
     "texts": {
       "capturer_name": "Capturar nombre:",
-      "placeholder_name": "Nombre de muestra:",
-      "placeholder_preview": "Úsalo escribiendo {{placeholder}} en los textos del Wired.",
+      "placeholder_name": "Nombre del identificador:",
+      "placeholder_preview": "Úsalo escribiendo {{placeholder}} en el mensaje del Wired.",
       "placeholder_type": {
-        "1": "Sencillo.",
+        "1": "Individual",
         "2": "Múltiple.",
         "user": {
-          "1": "Individual.",
-          "2": "Varios usuarios."
+          "1": "Individual",
+          "2": "Multiples usuarios"
         },
-        "title": "Tipo de ejemplo:"
+        "title": "Tipo de identificador:"
       },
-      "select_delimiter": "Seleccionar delimitador:",
+      "select_delimiter": "Establecer delimitador:",
       "variable_display_type": {
-        "1": "Numérico.",
+        "1": "Númerica",
         "2": {
-          "info": "Combinable con \"Complemento de variable: Conector de texto\".",
-          "title": "Textual."
+          "info": "Combinable con el \"Complemento de Variable WIRED: Conector de Texto\".",
+          "title": "Textual"
         },
-        "title": "Variable de tipo de pantalla:"
+        "title": "Escoge el tipo de visualización:"
       },
       "variable_input_type": "Variable de entrada:",
       "variable_output": "Variable de salida:"
@@ -641,7 +696,7 @@
       "mode": {
         "0": "Valor",
         "1": "Fecha de creación",
-        "2": "Fecha de última modificación"
+        "2": "Última fecha de modificación"
       },
       "subvariable": {
         "1": "Milisegundos",
@@ -664,35 +719,35 @@
       }
     },
     "toggletype": {
-      "0": "Pasar al siguiente estado",
-      "1": "Volver al estado anterior"
+      "0": "Cambiar al siguiente estado",
+      "1": "Cambiar al estado anterior"
     },
-    "toggletype_selection": "Elige el tipo de cambio:",
+    "toggletype_selection": "Escoge el tipo de cambio:",
     "triggerer": {
       "bot": "Bot",
       "user": "Usuario"
     },
-    "triggerer_choice": "Aplicar efectos wired a:",
+    "triggerer_choice": "Aplicar Efectos WIRED al:",
     "turn": {
       "0": "Esperar",
-      "1": "Gira 45 grados a la derecha",
-      "2": "Gira 90 grados a la derecha",
-      "3": "Gira 45 grados a la izquierda",
-      "4": "Gira 90 grados a la izquierda",
+      "1": "Girar 45° a la derecha",
+      "2": "Girar 90° a la derecha",
+      "3": "Girar 45° a la izquierda",
+      "4": "Girar 90° a la izquierda",
       "5": "Volver atrás",
-      "6": "Volver a una dirección aleatoria",
-      "title": "Cuando el movimiento está bloqueado"
+      "6": "Girar a una dirección aleatoria",
+      "title": "Cuando el furni colisiona:"
     },
     "user_collide": {
-      "0": "Bloquear movimientos de furni",
-      "title": "Al colisionar con usuario"
+      "0": "Esperar",
+      "title": "Cuando colisiona un usuario:"
     },
     "user_move": {
       "walkmode": {
-        "0": "Seguir andando si se ha movido cerca del objetivo",
-        "1": "Seguir andando",
-        "2": "Parar de andar",
-        "title": "Si el usuario estaba andando:"
+        "0": "Siga caminando si se movió cerca del objetivo",
+        "1": "Siga caminando",
+        "2": "Deje de caminar",
+        "title": "Si el usuario estaba caminando que:"
       }
     },
     "usercountmax": "No más de {{value}} usuarios",
@@ -701,25 +756,26 @@
       "1": "Habbo",
       "2": "Mascota",
       "4": "Bot",
-      "title": "Tipo de Usuario:"
+      "title": "Escoge el tipo de usuario:"
     },
     "variables": {
       "availability": {
-        "0": "Mientras el usuario esté en la sala",
-        "1": "Mientras la sala esté activa",
+        "0": "Mientras el usuario está en la sala",
+        "1": "Mientras la sala está activa",
         "10": "Permanente",
         "11": "Permanente, compartida entre salas",
-        "title": "Opciones de disponibilidad:"
+        "title": "Disponibilidad:"
       },
       "compare_value": {
         "0": "Fecha de creación",
-        "1": "Fecha de última modificación",
-        "title": "Comparar valor:"
+        "1": "Última fecha de modificación",
+        "title": "Valores a comparar:"
       },
       "connect_text": {
-        "caption": "0=text0\\n1=text1\\n2=...",
+        "caption": "0=texto0\\n1=texto1\\n2=…",
         "title": "Conectar texto con la variable:"
       },
+      "daily_task_name": "Código de la Misión Diaria:",
       "duration": {
         "0": "Milisegundos",
         "1": "Segundos",
@@ -733,13 +789,13 @@
       },
       "inspection": {
         "current_value": "Valor actual: {{value}}",
-        "title": "Inspección de variables"
+        "title": "Inspección de la variable:"
       },
       "operation": {
         "0": "Asignar",
-        "1": "Añadir",
-        "2": "Restar",
-        "3": "Multiplicar",
+        "1": "Suma",
+        "2": "Resta",
+        "3": "Multiplicación",
         "4": "Dividir",
         "5": "Potencia",
         "6": "Módulo",
@@ -751,27 +807,27 @@
         "101": "Bitwise OR",
         "102": "Bitwise XOR",
         "103": "Bitwise NOT",
-        "104": "Movimiento a la izquierda (<<)",
-        "105": "Movimiento a la derecha (>>)",
+        "104": "Desplazamiento a la izquierda  (<<)",
+        "105": "Desplazamiento a la derecha  (>>)",
         "advanced": "... mostrar avanzadas",
         "tooltip": "Elige una operación",
-        "title": "Operación:"
+        "title": "Escoge una operación:"
       },
       "quest_chain_name": "Código de la cadena del reto:",
       "quest_name": "Código del reto:",
       "reference_value": {
-        "from_variable": "De la variable:",
-        "set_value": "Ajustar valor:",
-        "title": "Valor de referencia"
+        "from_variable": "Usar valor de la variable:",
+        "set_value": "Establecer valor:",
+        "title": "Valor de referencia:"
       },
       "room_selection": {
-        "tooltip": "Elige una sala",
-        "title": "Elegir sala:"
+        "tooltip": "Seleccionar una sala",
+        "title": "Escoger una sala:"
       },
       "settings": {
         "has_value": "Tiene valor",
         "read_only": "Solo lectura",
-        "title": "Opciones de la variable:"
+        "title": "Opciones de variable:"
       },
       "show_internal": "... mostrar variables internas",
       "sort_by": {
@@ -782,19 +838,24 @@
         "4": "Fecha de modificación más antigua",
         "5": "Fecha de modificación más reciente",
         "caption": "Ordenar por:",
-        "title": "Ordenar por:"
+        "title": "Filtrar por:"
       },
-      "time_selection": "Elegir fecha",
+      "time_selection": "Establecer fecha:",
       "trigger_options": {
-        "0": "Creada",
-        "1": "Valor cambiado",
-        "2": "Eliminada",
-        "title": "Activar cuando la variable es:"
+        "0": "Es creada",
+        "1": {
+          "0": "Aumentado",
+          "1": "Disminuido",
+          "2": "Sin cambios",
+          "title": "Cambia su valor"
+        },
+        "2": "Se elimina",
+        "title": "Desencadenar cuando la variable:"
       },
       "value_settings": {
         "initial_value": "Valor inicial:",
-        "override_existing": "Sobreescribir la variable existente",
-        "select_by_value": "Elegir por valor",
+        "override_existing": "Sobreescribir variable existente",
+        "select_by_value": "Seleccionar por valor",
         "title": "Opciones de la variable:"
       },
       "variable_name": "Nombre de la variable:",
@@ -802,18 +863,27 @@
       "variable_ref_selection": "Variable de referencia:",
       "variable_selection": {
         "tooltip": {
-          "context": "Elige una variable de contexto.",
-          "title": "Elige una variable"
+          "context": "Selecciona una variable de contexto",
+          "title": "Selecciona una variable"
         },
-        "title": "Elegir variable:"
+        "title": "Escoge una variable:"
       }
     },
-    "whatissaid": "Lo que se cuenta:",
-    "whisper": "Susurrar"
+    "whatissaid": "Mensaje desencadenante:",
+    "whisper": "Susurrar",
+    "write_to_logs": {
+      "log_level": {
+        "title": "Nivel de registro:"
+      },
+      "log_message": {
+        "title": "Mensaje de registro:"
+      },
+      "view": "Ver registros"
+    }
   },
   "pickfurnis": {
-    "caption": "Elige Furni [{{count}}/{{limit}}]",
-    "desc": "Tendrás que seleccionar uno o más furnis para esta sección. Puedes seleccionar o quitar la selección de un furni en sala haciendo clic en él.",
+    "caption": "Selecciona Furni [{{count}}/{{limit}}]",
+    "desc": "Puedes elegir uno o más furnis para esta sección. Para esto selecciona o deselecciona un furni de la sala haciendo clic en él o tocándolo.",
     "furnitypematches": "The triggering Furni type matches the type of one of the picked furnis",
     "select": "Seleccionar un furni",
     "stuffselectiontype": {
@@ -848,16 +918,16 @@
     "avatarname": "Introduce un nombre de usuario",
     "badgecode": "Código de placa:",
     "bot": {
-      "chatmessage": "Qué debería decir el bot",
+      "chatmessage": "¿Qué debería decir el bot?",
       "handitem": "Selecciona el ítem de mano que el bot debería dar",
       "name": "El nombre del bot para ser controlado"
     },
     "botname": "El nombre del bot para ser controlado",
     "chatinput": "Introduce una clave",
-    "chatmessage": "Cuál es el mensaje:",
+    "chatmessage": "¿Cuál es el mensaje?",
     "dance": "Elige baile",
     "effectid": "ID de efecto:",
-    "enter_names_info": "Separar nombres de usuarios por líneas nuevas",
+    "enter_names_info": "Separa los nombres de usuario por línea",
     "freeze": {
       "effect": "Seleccionar efecto"
     },
